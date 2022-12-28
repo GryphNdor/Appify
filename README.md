@@ -5,7 +5,7 @@
 
 ## What is Appify?
 
-There are plenty of basic applications that we use in everyday life. Appify is to makes mini-apps that help take care of those tasks.
+There are plenty of basic applications that we use in everyday life. The Goal of Appify is to makes mini-apps that help take care of those tasks.
 
 ### Basic Apps in Appify
 
@@ -30,6 +30,7 @@ There are plenty of basic applications that we use in everyday life. Appify is t
 - [ ] Should be able to delete items from list
 - [ ] Should be able to increment item in the list by 5
 - [ ] Should be able to toggle between kg/lb on click
+- [ ] Bonus: Make it persistent on refresh
 
 Example:
 

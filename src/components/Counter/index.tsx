@@ -6,5 +6,9 @@ import React from "react";
  */
 
 export default function Counter() {
-  return <h1>Counter Page</h1>;
+  return (
+    <>
+      <h1>Counter Page</h1>
+    </>
+  );
 }

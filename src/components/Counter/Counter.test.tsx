@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 describe("basic qualifications", () => {
   test("should have a button", () => {
     render(<Counter />, { wrapper: BrowserRouter });
-    expect(screen.getAllByRole("button")).toBeGreaterThanOrEqual(1);
+    expect(screen.getAllByRole("button").length).toBeGreaterThanOrEqual(1);
   });
 
   test("should render a counter", () => {

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './style_work.css';
 
 type Exercises = {
@@ -90,7 +90,6 @@ export default function Workout(prop: any) {
     setWorkout([...workouts]);
     changeWeight([...weights]);
   }
-
   return (
     <>
       <h1>Workout Page</h1>  

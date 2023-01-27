@@ -6,6 +6,7 @@ export default function Picture() {
   const [num, changeNum] = useState(1);
   const [pics, setPics] = useState([]);
   const [error, setError] = useState(false);
+  const [isLoading, setLoading] = useState(false);
   var invalidNum = false;
 
   //Get the number of image user wants to generate 
@@ -21,6 +22,10 @@ export default function Picture() {
   }
 
   const generate = async() =>{
+    if (isLoading){
+      return;
+    }
+    setLoading(true);
     setPics([]);
     // Used try-catch block for error handling and added if statement to see if the response status was OK. 
     // Only add the url to the array if the response is OK
@@ -40,6 +45,7 @@ export default function Picture() {
     } catch (error) {
       setError(true);
     }
+    setLoading(false);
    
   }
   return (

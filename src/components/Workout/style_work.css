@@ -1,0 +1,74 @@
+
+.items{
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texts{
+    display: inline-block;
+    position: relative;
+
+    background-color: aqua;
+    border-radius: 10%;
+    border: none;
+
+    padding-right: 300px;
+    margin: 2px;
+    font-size: 20px;
+}
+.increase {
+    background-color: rgb(95, 202, 95);
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+
+}
+.decrease{
+    background-color: rgb(224, 91, 219);
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.unit {
+    background-color: rgb(255, 184, 32);
+    margin: 2px;
+    border-radius: 10%;
+    border: none;
+    font-size: 20px;
+}
+
+.remove{
+    background: none;
+    font-size: 20px;
+}
+
+.workoutWeight, .workoutName, .add{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    left: 40%;
+    
+    
+}
+
+.add{
+    border: none;
+    background-color: rgb(177, 153, 237);
+}
+

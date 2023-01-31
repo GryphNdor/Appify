@@ -1,0 +1,61 @@
+.AppHeader {
+  background-color: #cbdeff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.AppHeader h1 {
+  margin: 0;
+}
+
+
+.AppHeader button {
+  padding-left:25px;
+  padding-right:25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background-color: #bbd5ed;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 120%
+}
+
+.Row {
+  display:flex;
+  flex-direction: row;
+  align-items:baseline;
+  background-color: #ffdf93;
+  border-radius: 8px;
+  border: solid;
+  border-color: #cbdeff;
+}
+
+.Row button {
+  margin:0px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  /* background-color: #cbdeff; */
+  background-color: #ffdf93;
+  /* background-color: black; */
+  color: rgb(31, 31, 255);
+  /* margin: 10px; */
+  cursor: pointer;
+  font-size: 100%;
+}
+
+input{
+  font-size: 120%;
+  margin-bottom:20px
+}
+
+
+

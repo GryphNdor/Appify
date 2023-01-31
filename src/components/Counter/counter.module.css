@@ -1,0 +1,30 @@
+.AppHeader {
+  background-color: #cbdeff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.AppHeader h1 {
+  margin: 0;
+}
+
+
+.AppHeader button {
+  padding-left:25px;
+  padding-right:25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background-color: #bbd5ed;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 120%
+}
+
+

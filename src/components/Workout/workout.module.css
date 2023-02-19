@@ -1,0 +1,59 @@
+.AppHeader {
+    background-color: #ffdccb;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+  
+  .AppHeader h1 {
+    margin: 0;
+  }
+  
+  
+  .AppHeader button {
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #dbbbed;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 120%
+  }
+  
+  .Row {
+    display:flex;
+    flex-direction: row;
+    align-items:baseline;
+    background-color: #93ffcb;
+    border-radius: 8px;
+    border: solid;
+    border-color: #e7cbff;
+  }
+  
+  .Row button {
+    margin:0px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    /* background-color: #cbceff; */
+    background-color: #93ffe6;
+    /* background-color: black; */
+    color: rgb(60, 79, 113);
+    /* margin: 10px; */
+    cursor: pointer;
+    font-size: 100%;
+  }
+  
+  input{
+    font-size: 120%;
+    margin-bottom:20px
+  }
+  

@@ -13,6 +13,12 @@ describe("basic qualifications", () => {
     render(<Counter />, { wrapper: BrowserRouter });
     expect(screen.getByText(/0/i)).toBeInTheDocument();
   });
+  test("should not change text color after 10 calls", async () => {
+    render(<Counter />, { wrapper: BrowserRouter });
+    const user = userEvent.setup();
+    let color = screen.getByText(/0/i).style.color;
+    expect(screen.getByText(/0/i).style.color).not.toBe("");
+  });
 
   test("should change text color after 10 calls", async () => {
     render(<Counter />, { wrapper: BrowserRouter });
